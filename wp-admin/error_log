@@ -1,0 +1,42 @@
+[23-Oct-2022 00:39:08 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:39:25 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:39:28 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:40:21 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:40:30 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:40:34 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:40:39 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:40:44 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:40:47 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:59:26 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 00:59:39 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:00:46 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:00:57 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:01:25 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:01:27 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:01:32 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:02:58 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:03:02 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:03:21 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:05:06 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 01:47:25 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 154
+[23-Oct-2022 01:48:32 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 154
+[23-Oct-2022 11:47:07 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-includes/class-wp-query.php on line 4365
+[23-Oct-2022 12:02:13 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 154
+[23-Oct-2022 12:02:37 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 154
+[23-Oct-2022 12:30:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function remove_cap() on null in /home2/sepranatural/public_html/mall/wp-content/plugins/dokan-pro/includes/Upgrade/Upgraders/V_3_7_4.php:92
+Stack trace:
+#0 [internal function]: WeDevs\DokanPro\Upgrade\Upgraders\V_3_7_4::remove_unfiltered_html_capability()
+#1 /home2/sepranatural/public_html/mall/wp-content/plugins/dokan-lite/includes/Abstracts/DokanUpgrader.php(38): call_user_func()
+#2 [internal function]: WeDevs\Dokan\Abstracts\DokanUpgrader::run()
+#3 /home2/sepranatural/public_html/mall/wp-content/plugins/dokan-lite/includes/Upgrade/Manager.php(97): call_user_func()
+#4 /home2/sepranatural/public_html/mall/wp-content/plugins/dokan-lite/includes/Upgrade/AdminNotice.php(84): WeDevs\Dokan\Upgrade\Manager->do_upgrade()
+#5 /home2/sepranatural/public_html/mall/wp-includes/class-wp-hook.php(307): WeDevs\Dokan\Upgrade\AdminNotice::do_upgrade()
+#6 /home2/sepranatural/public_html/mall/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 /home2/sepranatural/public_html/mall/wp-includes/plugin.php(476): WP_Hook->do_action()
+#8 /home2/sepranatural/public_html/mall/wp-admin/admin-ajax.php(187): do_action()
+#9 {main}
+  thrown in /home2/sepranatural/public_html/mall/wp-content/plugins/dokan-pro/includes/Upgrade/Upgraders/V_3_7_4.php on line 92
+[23-Oct-2022 13:06:41 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 154
+[23-Oct-2022 13:07:11 UTC] PHP Warning:  Attempt to read property "post_type" on null in /home2/sepranatural/public_html/mall/wp-content/plugins/wordpress-seo/src/integrations/third-party/elementor.php on line 154
+[23-Oct-2022 20:50:59 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home2/sepranatural/public_html/mall/wp-includes/functions.php on line 5571
+[23-Oct-2022 21:09:00 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home2/sepranatural/public_html/mall/wp-includes/functions.php on line 5571

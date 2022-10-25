@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+.adder{
+	margin-top:35px;
+	}
+.adder input[name="add_new"],#update_app{
+	min-width:auto !important;
+	background-color:#06F;
+	color:#FFF;
+	padding:5px 15px;
+	border:none;
+	font-weight:bold;
+	border-radius:10px;
+	cursor:pointer;
+	}
+.delete_app_id{
+	cursor:pointer;
+	font-size:0px;
+	background:url(../img/trash.png) no-repeat;
+	height:35px;
+	width:35px;
+	min-width:1px !important;
+	border:none !important;
+	border-radius:0px;
+	box-shadow:none !important;
+	background-size:cover;}
+.single_row input[type="url"]{
+	background:url(../img/web.png) no-repeat;
+	background-size:25px 25px;
+	padding-left: 30px;
+    background-position: 3px 2px;
+	background-color:#FFF;}
+.single_row input[type="date"]{
+	background:url(../img/calendar.png) no-repeat;
+	background-size:25px 25px;
+	padding-left: 30px;
+    background-position: 5px 2px;
+	background-color:#FFF;}
+.single_row input[type="text"]{
+	background:url(../img/text.png) no-repeat;
+	background-size:25px 25px;
+	padding-left: 30px;
+    background-position: 5px 2px;
+	background-color:#FFF;}
+.single_row input[type="number"]{
+	background:url(../img/num.png) no-repeat;
+	background-size:22px 22px;
+	padding-left: 30px;
+    background-position: 5px 3px;
+	background-color:#FFF;}
+.single_row input[type="time"]{
+	background:url(../img/time.png) no-repeat;
+	background-size:22px 22px;
+	padding-left: 30px;
+    background-position: 5px 3px;
+	background-color:#FFF;}
+.single_row input[type="color"]{
+	background:url(../img/color.png) no-repeat;
+	background-size:22px 22px;
+	padding-left: 30px;
+    background-position: 5px 3px;
+	background-color:#FFF;
+	height:32px;}
+.single_row input[type="email"]{
+	background:url(../img/mail.png) no-repeat;
+	background-size:22px 22px;
+	padding-left: 30px;
+    background-position: 5px 3px;
+	background-color:#FFF;}
+.single_row input[type="tel"]{
+	background:url(../img/tel.png) no-repeat;
+	background-size:22px 22px;
+	padding-left: 30px;
+    background-position: 5px 3px;
+	background-color:#FFF;}
+.app_fild_box label, .app_fild_box input, .app_fild_box code{
+	float:left;
+	margin:10px;
+	display:inline-block;}
+.app_fild_box input{
+	border-radius:15px;
+	padding:5px 10px;
+	min-width:200px;
+	border: 1px solid #ddd;}
+.app_fild_box code{
+	border:1px solid #666;
+	padding:5px;
+	background:rgba(0,0,0,.07);
+	width: 200px;
+    text-align: center;}
+.app_fild_box label{
+	padding:5px;
+	width:150px;}
+.single_row{
+	display:block;
+	float:left;
+	width:100%;}
+.adder input, .adder select{
+	border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0;
+    min-height: 40px;
+    min-width: 270px;
+	}
+.adder select{
+	margin:-4px 10px 0 10px;}
+#identifier{
+	margin-left:10px;}
+.adder #error{
+	display:none;}
+#app_fild_box{
+	border:1px solid #ccc;
+	border-radius: 10px;
+    margin: 20px auto;
+	float:left;
+	display:block;
+	width:95%;}
+.update_box{
+	margin:25px;}
